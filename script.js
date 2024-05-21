@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     yesButton.addEventListener('click', () => {
         isYesClicked = true;
-        messageDiv.textContent = 'Wanna be Yours!';
+        messageDiv.textContent = 'Stillll....Wanna be Yours!';
         messageDiv.style.color = '#32cd32';
         noButton.style.display = 'none'; // Hide the no button once yes is clicked
         proposalSong.play(); // Play the proposal song
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             noClickCount += 1;
 
             if (noClickCount > 3) {
-                alert("HAHAHAHAHAHA!!!keep trying Babe!!");
+                alert("Efforts are nothing when u r not the person that she wants:)!!");
             } else {
                 const container = document.querySelector('.container');
                 const containerRect = container.getBoundingClientRect();
