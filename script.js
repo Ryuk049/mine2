@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!isYesClicked) {
             noClickCount += 1;
 
-            if (noClickCount > 3) {
+            if (noClickCount > 1) {
                 alert("Efforts are nothing when u r not the person that she wants:)!!");
             } else {
                 const container = document.querySelector('.container');
