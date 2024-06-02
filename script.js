@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             noClickCount += 1;
 
             if (noClickCount > 1) {
-                alert("keep trying untilu r ok:)!!");
+                alert("keep trying until u r ok:)!!");
             } else {
                 const container = document.querySelector('.container');
                 const containerRect = container.getBoundingClientRect();
